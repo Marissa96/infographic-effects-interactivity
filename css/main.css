@@ -77,6 +77,16 @@ body {
   }
 }
 
+.no-animate {
+  animation: finish-spin 0.5s linear forwards;
+}
+
+@keyframes finish-spin {
+
+  to {
+    transform: rotate(0deg);
+  }
+}
 
 .w0 {
   fill: #95d5d2;
@@ -159,17 +169,18 @@ body {
 
 .big-canada {
   width: 100%;
+  transition: all 200ms ease-in;
 }
 
 .bc0 {
   fill: #9fc195;
 }
 
-.bc1 {
+.brown {
   fill: #7d6f78;
 }
 
-.bc2 {
+.lightblue {
   fill: #95d5d2;
   stroke: #95d5d2;
   stroke-miterlimit: 10;
@@ -242,6 +253,26 @@ body {
 
 .leaf {
   width: 100%;
+  animation: svg-jiggle 1s linear infinite;
+}
+
+@keyframes svg-jiggle {
+
+  0% {
+    transform: rotate(0);
+  }
+
+  33% {
+    transform: rotate(15deg);
+  }
+
+  66% {
+    transform: rotate(-15deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
 }
 
 .le0 {
@@ -295,6 +326,10 @@ body {
   transform: translate(0);
 }
 
+.slide {
+  animation: none;
+}
+
 .worm-graph {
   width: 100%;
 }
@@ -317,4 +352,11 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
+  transform: scaleX(0);
+  transition: all 2s linear;
+  transform-origin: 50px 0;
+}
+
+.js-svg-animate .wg2 {
+  transform: scaleX(1);
 }
