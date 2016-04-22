@@ -62,7 +62,21 @@ body {
 
 .walleye {
   width: 100%;
+  animation: spin 3s linear infinite;
+  transform-origin: center;
 }
+
+@keyframes spin {
+
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .w0 {
   fill: #95d5d2;
@@ -234,12 +248,51 @@ body {
   fill: #7d6f78;
 }
 
-.le1 {
+.human{
   fill: #9fc195;
+  transition: all .5s linear;
+  transform: translate(-500px);
+}
+
+.human-4 {
+  transition-delay: .25s;
+}
+
+.human-9 {
+  transition-delay: .25s;
+}
+
+.human-3 {
+  transition-delay: .5s;
+}
+
+.human-8 {
+  fill: #95d5d2;
+  transition-delay: .5s;
+}
+
+.human-2 {
+  transition-delay: .75s;
+}
+
+.human-7 {
+  transition-delay: .75s;
+}
+
+.human-1 {
+  transition-delay: 1s;
+}
+
+.human-6 {
+  transition-delay: 1s;
 }
 
 .le2 {
   fill: #95d5d2;
+}
+
+.slide .human{
+  transform: translate(0);
 }
 
 .worm-graph {
