@@ -1,0 +1,267 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("../images/background.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 1vh;
+}
+
+.white {
+  color: white;
+}
+
+.blah {
+  text-align: center;
+}
+
+.title {
+  width: 100%;
+}
+
+.t0 {
+  fill: #fff;
+}
+
+.t1 {
+  fill: #95d5d2;
+}
+
+.t2 {
+  fill: #898b8e;
+}
+
+.t3 {
+  fill: #a7a9ac;
+}
+
+.t4 {
+  fill: #a7a9ac;
+  stroke: #a7a9ac;
+  stroke-width: 3.0577;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.walleye {
+  width: 100%;
+}
+
+.w0 {
+  fill: #95d5d2;
+  stroke: #95d5d2;
+  stroke-miterlimit: 10;
+}
+
+.w1 {
+  fill: none;
+  stroke: #23bdbd;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.w2 {
+  fill: none;
+  stroke: #23bdbd;
+  stroke-width: 1.8221;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.w3 {
+  fill: none;
+  stroke: #23bdbd;
+  stroke-width: 1.7618;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.w4 {
+  fill: #95d5d2;
+}
+
+.w5 {
+  fill: #a7a9ac;
+}
+
+.w6 {
+  fill: #0094b0;
+}
+
+.w7 {
+  fill: none;
+  stroke: #007d95;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.w8 {
+  fill: #007d95;
+}
+
+.w9 {
+  fill: none;
+  stroke: #23bdbd;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.w10 {
+  fill: #fff;
+}
+
+.w11 {
+  stroke: #000;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.big-canada {
+  width: 100%;
+}
+
+.bc0 {
+  fill: #9fc195;
+}
+
+.bc1 {
+  fill: #7d6f78;
+}
+
+.bc2 {
+  fill: #95d5d2;
+  stroke: #95d5d2;
+  stroke-miterlimit: 10;
+}
+
+.bc3 {
+  fill: #23bdbd;
+}
+
+.bc4 {
+  fill: #fff;
+  stroke: #169293;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.bc5 {
+  fill: none;
+  stroke: #169293;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.bc6 {
+  fill: #0094b0;
+}
+
+.bc7 {
+  fill: #169293;
+  stroke: #169293;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.bc8 {
+  fill: #0094b0;
+  stroke: #169293;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.bc9 {
+  fill: none;
+  stroke: #007d95;
+  stroke-width: 0.5;
+  stroke-linecap: round;
+  stroke-miterlimit: 10;
+}
+
+.bc10 {
+  fill: none;
+  stroke: #169293;
+  stroke-width: 0.25;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+
+.bc11 {
+  fill: #fff;
+}
+
+.leaf {
+  width: 100%;
+}
+
+.le0 {
+  fill: #7d6f78;
+}
+
+.le1 {
+  fill: #9fc195;
+}
+
+.le2 {
+  fill: #95d5d2;
+}
+
+.worm-graph {
+  width: 100%;
+}
+
+.wg0 {
+  fill: #fff;
+}
+
+.wg1 {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.861;
+  stroke-miterlimit: 10;
+}
+
+.wg2 {
+  fill: #7d6f78;
+  stroke: #000;
+  stroke-width: 0.861;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
