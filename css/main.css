@@ -173,11 +173,11 @@ body {
 }
 
 .canada {
-  fill:#9FC195;
+  fill:#9fc195;
 }
 
 .brown {
-  fill:#7D6F78;
+  fill:#7d6f78;
 }
 
 .lightblue {
@@ -203,7 +203,7 @@ body {
   fill: #0094b0;
 }
 
-.darkgreen{
+.darkgreen {
   fill: #169293;
   stroke: #169293;
   stroke-width: 0.5;
@@ -238,8 +238,8 @@ body {
   stroke-miterlimit: 10;
 }
 
- .white-eye {
-   fill: #fff;
+.white-eye {
+  fill: #fff;
 }
 
 .leaf {
@@ -270,7 +270,7 @@ body {
   fill: #7d6f78;
 }
 
-.human{
+.human {
   fill: #9fc195;
   transition: all .5s linear;
   transform: translate(-500px);
@@ -313,7 +313,7 @@ body {
   fill: #95d5d2;
 }
 
-.slide .human{
+.slide .human {
   transform: translate(0);
 }
 
