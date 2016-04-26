@@ -172,12 +172,12 @@ body {
   transition: all 200ms ease-in;
 }
 
-.bc0 {
-  fill: #9fc195;
+.canada {
+  fill:#9FC195;
 }
 
 .brown {
-  fill: #7d6f78;
+  fill:#7D6F78;
 }
 
 .lightblue {
@@ -186,20 +186,11 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc3 {
+.mediumblue {
   fill: #23bdbd;
 }
 
-.bc4 {
-  fill: #fff;
-  stroke: #169293;
-  stroke-width: 0.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-miterlimit: 10;
-}
-
-.bc5 {
+.darkgreen-strokes {
   fill: none;
   stroke: #169293;
   stroke-width: 0.5;
@@ -208,11 +199,11 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc6 {
+.darkblue {
   fill: #0094b0;
 }
 
-.bc7 {
+.darkgreen{
   fill: #169293;
   stroke: #169293;
   stroke-width: 0.5;
@@ -221,7 +212,7 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc8 {
+.darkblue-2 {
   fill: #0094b0;
   stroke: #169293;
   stroke-width: 0.5;
@@ -230,7 +221,7 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc9 {
+.darkerblue-strokes {
   fill: none;
   stroke: #007d95;
   stroke-width: 0.5;
@@ -238,7 +229,7 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc10 {
+.darkgreen-strokes-2 {
   fill: none;
   stroke: #169293;
   stroke-width: 0.25;
@@ -247,8 +238,8 @@ body {
   stroke-miterlimit: 10;
 }
 
-.bc11 {
-  fill: #fff;
+ .white-eye {
+   fill: #fff;
 }
 
 .leaf {
