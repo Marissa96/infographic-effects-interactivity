@@ -62,8 +62,21 @@ body {
 
 .walleye {
   width: 100%;
+  -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
+  -webkit-transform-origin: center;
   transform-origin: center;
+}
+
+@-webkit-keyframes spin {
+
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 @keyframes spin {
@@ -78,7 +91,15 @@ body {
 }
 
 .no-animate {
+  -webkit-animation: finish-spin 0.5s linear forwards;
   animation: finish-spin 0.5s linear forwards;
+}
+
+@-webkit-keyframes finish-spin {
+
+  to {
+    -webkit-transform: rotate(0deg);
+  }
 }
 
 @keyframes finish-spin {
@@ -289,7 +310,27 @@ body {
 
 .leaf {
   width: 100%;
+  -webkit-animation: svg-jiggle 1s linear infinite;
   animation: svg-jiggle 1s linear infinite;
+}
+
+@-webkit-keyframes svg-jiggle {
+
+  0% {
+    -webkit-transform: rotate(0);
+  }
+
+  33% {
+    -webkit-transform: rotate(15deg);
+  }
+
+  66% {
+    -webkit-transform: rotate(-15deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(0);
+  }
 }
 
 @keyframes svg-jiggle {
@@ -318,6 +359,7 @@ body {
 .human {
   fill: #9fc195;
   transition: all .5s linear;
+  -webkit-transform: translate(-500px);
   transform: translate(-500px);
 }
 
@@ -359,10 +401,12 @@ body {
 }
 
 .slide .human {
+  -webkit-transform: translate(0);
   transform: translate(0);
 }
 
 .slide {
+  -webkit-animation: none;
   animation: none;
 }
 
@@ -388,11 +432,14 @@ body {
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-miterlimit: 10;
+  -webkit-transform: scaleX(0);
   transform: scaleX(0);
   transition: all 2s linear;
+  -webkit-transform-origin: 50px 0;
   transform-origin: 50px 0;
 }
 
 .js-svg-animate .wg2 {
+  -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
