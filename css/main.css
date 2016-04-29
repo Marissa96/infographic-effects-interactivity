@@ -242,25 +242,25 @@ body {
   fill: #fff;
 }
 
-.big-canada path:not(.canada), .big-canada circle:not(.canada), .big-canada ellipse:not(.canada){
+.big-canada path:not(.canada), .big-canada circle:not(.canada), .big-canada ellipse:not(.canada) {
   opacity: 0;
   transition: all .5s linear;
 }
 
-.fade-in path:not(.canada), .fade-in circle:not(.canada), .fade-in ellipse:not(.canada){
+.fade-in path:not(.canada), .fade-in circle:not(.canada), .fade-in ellipse:not(.canada) {
   opacity: 1;
 }
 
 .big-canada.fade-in .big-lake-tout {
-  transition-delay: .15s
+  transition-delay: .15s;
 }
 
 .big-canada.fade-in .northern-pike {
-  transition-delay: .25s
+  transition-delay: .25s;
 }
 
 .big-canada.fade-in .large-mouth-bass {
-  transition-delay: .35s
+  transition-delay: .35s;
 }
 
 .big-canada.fade-in .giant-bluefin-tuna {
@@ -268,23 +268,23 @@ body {
 }
 
 .big-canada.fade-in .giant-atlantic-salmon {
-  transition-delay: .55s
+  transition-delay: .55s;
 }
 
 .big-canada.fade-in .small-mouth-bass {
-  transition-delay: .65s
+  transition-delay: .65s;
 }
 
 .big-canada.fade-in .yellow-perch {
-  transition-delay: .75s
+  transition-delay: .75s;
 }
 
 .big-canada.fade-in .walleye-2 {
-  transition-delay: .85s
+  transition-delay: .85s;
 }
 
 .big-canada.fade-in .great-white-sturgeon {
-  transition-delay: .50s
+  transition-delay: .95s;
 }
 
 .leaf {
